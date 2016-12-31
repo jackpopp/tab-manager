@@ -1,0 +1,46 @@
+{
+  "name": "tab-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "watch": {
+    "build": "src/**/*.*"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --progress --colors && cp src/popup.html lib && cp src/index.html lib && cp src/style.css lib",
+    "serve": "DEV_SERVER_ROOT=./lib/ dev-server",
+    "watch": "webpack --progress --colors --watch",
+    "dist": "node dist.js",
+    "watcher": "npm-watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.21.0",
+    "babel-jest": "^18.0.0",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-transform-object-rest-spread": "^6.20.2",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "dev-server": "0.0.2",
+    "install": "^0.8.4",
+    "jest": "^18.1.0",
+    "node-zip": "^1.1.1",
+    "npm": "^4.0.5",
+    "npm-watch": "^0.1.7",
+    "react-test-renderer": "^15.4.1",
+    "webpack": "^1.14.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.20.0",
+    "babel-runtime": "^6.20.0",
+    "number-to-words": "^1.2.3",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  }
+}

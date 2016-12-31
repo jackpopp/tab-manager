@@ -1,0 +1,100 @@
+body {
+  background-color: #eeeeee;
+}
+
+h1,h2 {
+  font-weight: 300;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.item-holder {
+  width: calc(100% - 230px);
+}
+
+.item {
+  background-color: #eeeeee;
+  border-bottom: 1px solid #e6e6e6;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.5s ease, border 0.5s ease;
+}
+
+.item a {
+  text-decoration: none;
+  font-weight: 400;
+  color: #7e57c2;
+}
+
+.item--dark {
+  background-color: #BA68C8;
+  color: white;
+}
+
+.item--dark a {
+  color: white;
+}
+
+.item--dark:hover a {
+  color: #BA68C8;
+}
+
+.item--padded {
+  padding: 10px;
+}
+
+.item:hover {
+  background-color: #e0e0e0;
+  border-bottom: 1px solid #bdbdbd;
+  transition: background-color 0.5s ease, border 0.5s ease;
+}
+
+.item__icon {
+  width: 15px;
+  height: 15px;
+  background-size: cover;
+  border-radius: 2px;
+  display: inline-block;
+  top: 3px;
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.item__info {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.item__delete {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  color: #d32f2f;
+}
+
+.item__delete:hover {
+  font-weight: 400;
+  color: #ef5350;
+}
+
+.legend {
+  top: 20px;
+  right: 20px;
+  position: fixed;
+  width: 200px;
+  min-height: 100px;
+  border: 0px solid #e6e6e6;
+}
