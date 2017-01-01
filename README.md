@@ -1,3 +1,9 @@
+# Tab Manager for chrome
+
+A react based chrome extension for managing your tabs.
+
+![Alt text](screenshot.png?raw=true "Screenshot")
+
 ## Build
 
 ```
