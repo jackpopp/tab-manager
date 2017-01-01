@@ -2,7 +2,7 @@
 
 A react based chrome extension for managing your tabs.
 
-![Alt text](screenshot.png?raw=true "Screenshot")
+<img src="screenshot.png?raw=true" alt="Screenshot of the Tab Mananger" style="width:600px; margin: 0 auto;" />
 
 ## Build
 
