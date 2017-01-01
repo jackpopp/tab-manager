@@ -1,8 +1,10 @@
 {
-  "name": "Chrome Tab List",
-  "description": "List and manage groups of chrome tabs.",
+  "name": "Tab Manager",
+  "short_name": "Tab Mananger",
+  "description": "List and manage tabs and windows.",
   "version": "1.0",
   "manifest_version": 2,
+  "author": "Jack Hannigan Popp",
   "browser_action": {
     "default_icon": "icon_16.png",
     "default_popup": "lib/popup.html"

@@ -16,3 +16,11 @@ npm run watcher
 ```
 npm run dist
 ```
+
+
+## TODO
+
+- Tests
+- Make look good
+- Better window management
+- Save window state
